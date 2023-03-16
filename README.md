@@ -1,1 +1,1 @@
-All i want is uuuuuuuuuuuu!
+Ten kod przepisuje całą tabelkę do excela jak leci, trzeba tylko usunąć część kodu pomiędzy #start i #end. Właściwy kod jest w docstringu.

@@ -12,12 +12,14 @@ def main():
     table_raw = page_parser.find("tbody")
     cells = table_raw.find_all('td')"""
 
+    # start
     filepath = r"C:\Users\Gazda Karol\Desktop\!doctype  .txt"
     file = open(filepath, "r")
     file = file.read()
     file = BeautifulSoup(file, "html.parser")
     table_raw = file.find("tbody")
     cells = table_raw.find_all('td')
+    # end
 
     table = [['', 'IMEI', 'Make', 'Model', 'Model Code', 'Timestamp', 'Version', 'Liq.', 'CPO', 'Func',
               'Customer Grade', 'Cleared', 'Power Down', 'Customer', 'Mode', 'Cell ID', 'Failures', 'Exceptions', 'ID']]
